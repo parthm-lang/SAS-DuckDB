@@ -11,3 +11,5 @@ This code demonstrates how to use the sasioduk engine to read Parquet data direc
 
 **Reading Parquet:**
 This code demonstrates two different ways to assign and use the sasioduk engine when working with Parquet files, showing how SAS can read multi-file datasets using wildcard paths. In Part 1, all connection parameters—including file_type and file_path—are specified directly in the libname statement, allowing procedures like PROC CONTENTS, PROC MEANS, and PROC PRINT to reference Parquet files simply by pointing to wildcarded directory patterns. In Part 2, only the file_path is defined in the libname, while the file_type is supplied at the time each dataset reference is used. Both approaches illustrate how to explore full-year or single-month data without manual file enumeration, highlighting the flexibility of sasioduk in handling Parquet datasets.
+
+**DATASETS:** The datasets used in the code are available in NYC TLC trip record data page: https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page
